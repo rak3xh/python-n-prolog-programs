@@ -7,10 +7,20 @@ for i in range(1,6):
     sum+=i
 print(sum)"""
 
-list=["rakesh","hero","KKR","dad","Thiruvanathapuram"]
+"""list=["rakesh","hero","KKR","dad","Thiruvanathapuram"]
 max=0
 for i in list:
-    if(len(i)>max):
-        max=len(i)
+    if(len(i)==3):
+        print(i)
 
-print(max)
+print(max)"""
+
+k=["name","age","id"]
+v=["rakesh",23,77]
+dictionary=dict()
+for i in k:
+    for j in v:
+        dictionary[i]=j
+        v.remove(j)
+        break
+print(dictionary)    
