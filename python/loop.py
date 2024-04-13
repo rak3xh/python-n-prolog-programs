@@ -15,12 +15,12 @@ for i in list:
 
 print(max)"""
 
-k=["name","age","id"]
-v=["rakesh",23,77]
-dictionary=dict()
+k = ["name", "age", "id"]
+v = ["rakesh", 23, 77]
+dictionary = dict()
 for i in k:
     for j in v:
-        dictionary[i]=j
+        dictionary[i] = j
         v.remove(j)
         break
-print(dictionary)    
+print(dictionary)
